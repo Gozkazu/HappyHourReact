@@ -13,6 +13,7 @@ export default function MainRouter () {
     return (
         <Router>
             <Layout>
+                <Route exact path="/" component={Maps}/>
                 <Route exact path="/home" component={Maps}/>
                 <Route path="/happyhours" component={HappyHours}/>
                 <Route path="/listbar" component={Listbar}/>
