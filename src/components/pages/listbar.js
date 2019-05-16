@@ -1,6 +1,6 @@
 import React from 'react';
  
-class Exclusivite extends React.Component{
+class Listbar extends React.Component{
     render(){
         return(
             <div>
@@ -11,4 +11,4 @@ class Exclusivite extends React.Component{
 
 }
 
-export default Exclusivite
+export default Listbar

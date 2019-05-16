@@ -1,6 +1,5 @@
 import React from 'react';
-import NavTabs from '../navbar';
-import NavNav from './navnav'
+import NavNav from './navnav';
 
 class Layout extends React.Component{
     render(){

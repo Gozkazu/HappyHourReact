@@ -13,13 +13,13 @@ const styles = theme => ({
 class NavNav extends React.Component{
     render(){
     return(
-        <AppBar className="absolute top left right z1" color="default"> 
+        <AppBar position="fixed" className="absolute top right z1" color="default"> 
             <Toolbar>
                 <Button component={Link} to ='/home'>Maps</Button>
                 <Button component={Link} to ='/happyhours'>HappyHours</Button>
                 <Button component={Link} to ='/listbar'>Liste des Bars</Button>
                 <Button component={Link} to ='/exclusivite'>Exclusivite</Button>
-                <Button component={Link} to ='login'>Profile</Button>
+                <Button component={Link} to ='/login'>Profile</Button>
             </Toolbar>
         </AppBar>
     );
