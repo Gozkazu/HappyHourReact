@@ -43,7 +43,7 @@ function MapsVue(props) {
       <CssBaseline />
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
-          <NavNav/>
+          <NavNav />
         </Toolbar>
       </AppBar>
       <Drawer
@@ -72,7 +72,7 @@ function MapsVue(props) {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-            <Maps/>
+        <Maps />
       </main>
     </div>
   );
